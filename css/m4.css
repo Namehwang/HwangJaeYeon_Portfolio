@@ -1,0 +1,173 @@
+html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    margin:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.wrap{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+#global-nav{
+    position:fixed;
+    z-index:1000;
+    top:0;
+    width:100%;
+    background-color:#fff;
+    border-bottom:2px solid rgba(0,0,0,0.3);
+    box-sizing:border-box;
+    text-align:center;
+}
+
+#global-nav ul{
+    display:flex;
+    width:100%;
+    height:100%;
+}
+
+#global-nav ul a{
+    text-decoration: none;
+    color:#969696;
+    border-right:2px solid rgba(0,0,0,0.3);
+    width:16.6666%;
+    padding-top:1.2vw;
+    padding-bottom:1.2vw;
+    font-size:1.2vw;
+    transition:ease-in-out 0.3s;
+}
+
+#global-nav ul a.m4{
+    background-color:#969696;
+    color:#fff;
+    font-weight:700;
+}
+
+#global-nav ul a:hover{
+    background-color:#969696;
+    color:#fff;
+    font-weight:700;
+    transition:ease-in-out 0.3s;
+}
+
+article.content{
+    position: relative;
+    display:inline-block;
+    width:100%;
+    height:70%;
+    padding-top:2.5vw;
+    padding-left:3vw;
+}
+
+article.content .name{
+    display:inline-block;
+    width:60%;
+}
+
+article.content .name ul{
+    display:flex;
+    width:100%;
+    list-style-type: none;
+}
+
+article.content .name ul li:first-child{
+    position: relative;
+    font-size:7vw;
+    font-weight:700;
+    color:#6e6e6e;
+    top:0.4vw;
+}
+
+article.content .name ul li:last-child{
+    position: relative;
+    font-size:1.5vw;
+    font-weight:700;
+    line-height:11vw;
+    padding-left:4.5vw;
+    color:#8a8a8a;
+}
+
+article.content .name .line{
+    position: absolute;
+    display: inline-block;
+    top:10vw;
+    left:0;
+    width:32vw;
+    height:0.01vw;
+    border-bottom:1px solid rgba(0,0,0,0.3);
+}
+
+article.content .name .line_h{
+    position: absolute;
+    display: inline-block;
+    top:3vw;
+    left:16.5vw;;
+    width:0.1vw;
+    height:10vw;
+    border-right:1px solid rgba(0,0,0,0.3);
+}
+
+article.content .work{
+    position: absolute;
+    display:inline-block;
+    top:15vw;
+    left:3vw;
+    width:100%;
+    height:70%;
+}
+
+article.content .work ul{
+    display:flex;
+    width:100%;
+    height:100%;
+    list-style-type:none;
+}
+
+article.content .work ul li:first-child{
+    position: relative;
+    width:25%;
+    padding-left:1vw;
+    padding-top:5vw;
+    font-size:1.1vw;
+    line-height:1.8vw;
+    font-weight:700;
+    color:#a0a0a0;
+}
+
+article.content .work ul li:first-child button{
+    position: relative;
+    width:11vw;
+    height:2.5vw;
+    border:0px;
+    font-size:0.9vw;
+    font-weight:700;
+    background-color:#a0a0a0;
+    color:#fff;
+    left:50%;
+    margin-left:-26%;
+    margin-top:3vw;
+    transition: ease-in-out 0.3s;
+}
+
+article.content .work ul li:first-child button:hover{
+    background-color:#d3d3d3;
+    color:#6e6e6e;
+    transition: ease-in-out 0.3s;
+}
+
+article.content .work ul li:last-child{
+    position: relative;
+    display: inline-block;
+    width:75%;
+    background-image: url("./images/m4.jpg");
+    background-size:75%;
+    background-repeat: no-repeat;
+    left:50%;
+    margin-left:-45%;
+}
